@@ -1,8 +1,14 @@
 # Assignment: calc perimeter and area of certain shapes
+# this is my own feedback when looking at
+# the proposed solution
 import math
+# could have used from os import system
 
 
 def is_number_inp_valid(msg):
+    # ERROR MESSAGES COULD BE GENERIC
+    # TUTOR USED if not inp,isnumeric() or float(inp) <= 0:
+    # display_error_message("shape")
     """
     Helper function that checks input
     and outputs appropriate error message
@@ -27,6 +33,7 @@ def is_number_inp_valid(msg):
 
 
 def is_this_command_allowed(cmd, ok_commands):
+    # This could be done with a lambda function
     """
     Checks if user has picked one
     of the allowed commands
@@ -161,6 +168,7 @@ def rectangle_calcs():
 
 
 def print_results(shape, perimeter, area):
+    # could be a lambda function within main?
     """
     Makes the statement to print to user
     :param shape: string - triangle, circle, rectangle or square
@@ -201,30 +209,30 @@ def main():
         # if command is exit, break the loop
         if cmd == 'e':
             break
-
+        # below commands shortened
         # if circle is chosen
         if cmd == 'c':
             # launch the circle calc
-            circle_perimeter, circle_area = circle_calcs()
-            print_results('Circle', circle_perimeter, circle_area)
+            perimeter, area = circle_calcs()
+            print_results('Circle', perimeter, area)
 
         # if triangle is chosen
         if cmd == 't':
             # launch the triangle calc
-            triangle_perimeter, triangle_area = triangle_calcs()
-            print_results('Triangle', triangle_perimeter, triangle_area)
+            perimeter, area  = triangle_calcs()
+            print_results('Triangle', perimeter, area)
 
         # if square is chosen
         if cmd == 's':
             # launch the square calc
-            square_perimeter, square_area = square_calcs()
-            print_results('Square', square_perimeter, square_area)
+            perimeter, area = square_calcs()
+            print_results('Square', perimeter, area)
 
         # if rectangle is chosen
         if cmd == 'r':
             # launch the rectangle calc
-            rectangle_perimeter, rectangle_area = rectangle_calcs()
-            print_results('Rectangle', rectangle_perimeter, rectangle_area)
+            perimeter, area = rectangle_calcs()
+            print_results('Rectangle', perimeter, area)
 
     return '\nExit chosen. This is the end.'
 
