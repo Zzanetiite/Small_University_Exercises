@@ -1,0 +1,5 @@
+1, Acton Acolytes, 968.45, 1991, Green
+2, Burnley Burghers, 1466.33, 2016, Red
+3, Coventry Casuals, 2087.99, 2015, Blue
+4, Darnley Donuts, 5.99, 2017, Yellow
+5, Eltham Eejits, 2021.01, 2020, Pink

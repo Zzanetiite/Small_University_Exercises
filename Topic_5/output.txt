@@ -1,0 +1,18 @@
+0001,Afghanistan                     ,        2992898,Kabul               ,   1424400,Asia                , 1919,Aphgani                  
+0002,Albania                         ,        3200001,Tirana              ,    251000,Europe              , 1912,Lek                      
+0003,Algeria                         ,       32531853,Algiers             ,   1507241,Africa              , 1962,Dinar                    
+0004,Andorra                         ,          64000,Andorra La Vella    ,     23000,Europe              , 1278,Euro                     
+0005,Angola                          ,       14284000,Luanda              ,   4534000,Africa              , 1975,New Kwanza               
+0006,Anguilla                        ,          12500,Anguilla            ,         ?,Caribbean           ,    -,East Caribbean Dollar    
+0007,Antarctica                      ,              0,-                   ,         -,Antarctica          , 1961,-                        
+0008,Antigua and Barbuda             ,          68722,St. Johns           ,     23500,Caribbean           ,    -,East Caribbean Dollar    
+0009,Arctica                         ,              0,-                   ,         -,Arctic Region       ,    -,-                        
+0010,Argentina                       ,       38970000,Buenos Aires        ,   3922829,Latin America       , 1816,Peso                     
+0011,Armenia                         ,        2982904,Yerevan             ,   1462700,Asia                , 1991,Dram                     
+0012,Aruba                           ,          71218,Oranjestad          ,         ?,Caribbean           ,    -,Aruban Guilder           
+0013,Australia                       ,       20200000,Canberra            ,    310000,Oceania             , 1901,Australian Dollar        
+0014,Austria                         ,        8115000,Vienna              ,   1987577,Europe              , 1918,Euro                     
+0015,Azerbaijan                      ,        7911974,Baku                ,   2118600,Asia                , 1991,Manat                    
+0016,Bahamas                         ,         303611,Nassau              ,    222200,North America       , 1973,Bahamian Dollar          
+0017,Bahrain                         ,         688345,Al-Manamah          ,    149900,Middle East         , 1971,Bahrain Dinar            
+0018,Bangladesh                      ,      158760000,Dhaka               ,   5731000,Asia                , 1971,Taka 
